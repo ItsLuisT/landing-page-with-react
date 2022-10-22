@@ -3,8 +3,8 @@ import React from "react";
 const NavBar = (props) => {
   let name = props.name;
   return (
-    <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    // <div className="container">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
             <div className="container-fluid">
             <a className="navbar-brand w-80" href="#">Start Bootstrap</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ const NavBar = (props) => {
             </ul>
         </div>
         </nav>
-    </div>
+    // </div>
   );
 };
 

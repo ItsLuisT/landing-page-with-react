@@ -12,14 +12,15 @@ import FooterBottom from "./FooterBottom.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container">
+		<div>
 			<NavBar/>
+		<div className="container">
 			<Jumbotron/>
 			<Card/>
 			<FooterBottom/>
 
 		</div>
-
+</div>
 	);
 };
 
